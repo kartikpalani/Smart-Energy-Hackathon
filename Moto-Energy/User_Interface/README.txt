@@ -1,0 +1,1 @@
+This part reads the messages displayed in the serial monitor and puts it in a HTML file dynamically to let the User know what to do(which of the windows to close or override switch is on or not etc).Though there is a corresponding LED to each window but this display message will let a new person to know what to do if the AC is not open.
