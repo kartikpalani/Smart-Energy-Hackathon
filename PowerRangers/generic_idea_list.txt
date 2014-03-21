@@ -1,0 +1,42 @@
+Smart Control of ACs under peak power constraint
+------------------------------------------------
+1 : Goals
+
+=> To avoid peak power consumption
+=> To take care of user comfort automatically
+=> Minimize the number of switchings and increase AC lifetime
+
+
+2 : Our Solution
+--------------------------------
+=> Two modes of operation : user defined and power saver
+=> Power Saver : constraint on the maximum number of ACs used together, Only limited to a range of temperatures (Th, Tl), periodic changing of ACs being switched
+=> User defined : gets the desired temperature from user , and chooses the ACs to maintain, co-ordinated control to minimize the ACs being used
+
+
+3 : Blocks & Hardware
+------------------------------
+=> Each AC has a control given by arduino on place
+=> A sensor in the center of the room to identify the temperature felt by users
+=> R-Pi to communicate with arduinos on AC, intake the sensor data and take the decisions
+
+4 : Algorithm & Machine Learning
+-------------------------------------------
+=> User mode : gets the input from user, and sets corresponding ACS to temperatures which will achieve it making sure of 
+=> Power Saver : The maximum number of ACs that can be turned on, is limited and thereby the minimum temperature as well. Makes sure to avoid peak current draw from the supply and improves lifetime by rotational use.
+=> Machine learning : This mode updates the lookup tables of all the AC combinations automatically, which will then be used in the other two modes.
+
+
+5 : Advantages
+------------------------
+=> Scalable : The only inputs required is the total number of ACs, and the number of ACs for power constraint
+=> Low cost : R-Pi+Arduino for each AC, is very cheap
+=> Smart : Considers the user's comfort, and it updates the intelligence periodically
+
+
+6 : A long way to go
+----------------------------
+=> Intelligence to know person's comfort zones and adjust accordingly, without his input
+=> Consider the effects of current time, season, and number of people to choose the temperature
+=> Dynamically get the exhaust temperature and adjust ACs for optimum load
+

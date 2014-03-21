@@ -5,7 +5,7 @@ in all possible combinations as per given in a list.
 The result is stored in a csv file called config.csv 
 (using csv file is not a must. user can edit the code to use any other file as per his need)
 Here we have use code from http://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging/software-install
- to fetch data from the AM2302 temperature sensors. Here ./Adafruit_DHT is renamed as ./hackTemp
+ to fetch data from the AM2302 temperature sensors
 
 '''
 # There is scope for a lot of improvements in this code

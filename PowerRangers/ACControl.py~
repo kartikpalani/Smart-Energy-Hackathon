@@ -52,7 +52,7 @@ GPIO.setup(24,GPIO.OUT)
 #following function fetches data from the temperature sensor
 #and sets it to oldTemperature and temper
 def checktemp():
-    #the ./hackTemp is run with 2302 as model of sensor. 27 the pin to which sensor is connected.
+    #the ./hackTemp is run with 2302 as model of sensor. 27 the id of sensor and is variable depending up on the sensor used.
     output =subprocess.check_output(["./hackTemp","2302",'27']);
     #regular expression extracts temperature data 
     matches = re.search("Temp =\s+([0-9.]+)", output)
