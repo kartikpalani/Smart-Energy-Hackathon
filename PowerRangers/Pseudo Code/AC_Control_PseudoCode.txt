@@ -1,0 +1,86 @@
+
+mode=Input("POWERSAVER or USERDEFINED : ")
+%%%%%%%%%%%%%%%%%%%%%%%%%% MODE SCANNING %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+if mode == "POWERSAVER"
+    TL=28 % Fixing the temperatures based on machine learnt data
+    TU=30
+    N=2
+else if mode == "USERDEFINED"
+    mintemp=Input("Input minimum temperature required (in Celcius):")
+    if (mintemp < 28) && (mintemp>26)
+        print "Three ACs have to be switched on"
+        N=3
+        TL=mintemp
+        TU=mintemp+3
+    else
+        print "All ACs have to be switched on"
+        N=4
+        TL=mintemp
+        TU=mintemp+3
+else
+    print "Invalid mode"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% OPERATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+if N == 2
+    while True:
+        #TODO turn on AC1 AC3
+        while (temper > TL):
+            #TODO check for temp every 10 second nop
+        
+	#TODO turn off AC1 and AC3     
+	while (temper < TU):
+            #check for temp every 10 second nop
+        
+	#TODO trun on AC2 and AC 4
+        while (temper > TL):
+            #TODO check for temp every 10 second nop
+
+        #TODO turn off AC2 and AC4
+        while (temper<TU):
+            #check for temp every 10 second nop
+else if N==3
+    while True:
+        #TODO turn on AC1 AC2 AC3
+        while (temper > TL):
+            #check for temp every 10 second nop
+
+        #TODO turn off AC1 AC2 AC3
+        while (temper < TU):
+            #check for temp every 10 second nop
+
+        #TODO switch on AC4 AC2 AC3
+        while (temper > TL):
+            #check for temp every 10 second nop
+
+        #TODO turn off AC4 AC2 AC3
+        while (temper < TU):
+            #check for temp every 10 second nop
+
+        #TODO turn on AC3 AC4 AC1
+        while (temper > TL):
+            #check for temp every 10 second nop
+
+        #TODO turn off AC3 AC4 AC1
+        while (temper < TU):
+            #check for temp every 10 second nop
+
+        #TODO turn on AC4 AC1 AC2
+        while (temper > TL):
+            #check for temp every 10 second nop
+
+        #TODO write AC4 AC1 AC2  switch off code
+        while (temper < TU ):
+            #check for temp every 10 second nop
+else
+    while True:
+        #TODO turn on AC 1234
+        while (temper >TL):
+            #check for temp every 10 second nop
+        
+	#TODO turn off AC4 AC1 AC2 A3
+        while (temper < TU):
+            #check for temp every 10 second nop
+        
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
