@@ -1,0 +1,37 @@
+
+First time
+
+Create a Config file
+
+Get the date and time 
+
+Generate the AC combinations for no of AC input
+
+Iterate through combinations
+	Switch on th ACs for a particular combination
+        keep measuring the temperature until there is not much temperature  change for a period of time
+	record the lowest temperature attained to config file with date, and combination
+
+======================================
+
+Run this code twice in a month
+
+The next time it runs , 
+read the existing config file
+get the date and time
+Get the AC combination from the file
+	switch on AC for the particular combination
+        keep measuring the temperature until there is not much temperature  change for a period of time
+	record the lowest temperature attained to config file with date, and combination along side the existing data
+ 
+
+======================================
+Keep doing this to get a data over over the year.
+After a year is over, if the execution time is near one of previous execution day of month,
+	get the current data and previous data, 
+	average the data (find expectation)
+	update the data with averaged data for the particular 
+	
+
+
+	
