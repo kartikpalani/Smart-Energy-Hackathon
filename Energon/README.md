@@ -15,18 +15,18 @@ Same cable is used to power up the setup. Security feature is provided, so that 
 
 Here is the documentation for the same.
 
-       Part 1: Circuit diagram
+Part 1: Circuit diagram
 	   
-       Part 2: Experimental set-up diagram
+Part 2: Experimental set-up diagram
 	   
-       Part 3: Arduino code
+Part 3: Arduino code
 	   
-       Part 4: Python code
+Part 4: Python code
 
 	   
 	   
 
-	   Components used:
+Components used:
 Arduino Uno, 
 Hx711 module (24 bit ADC),
 Load cell (10Kg capacity), 
