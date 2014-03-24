@@ -23,8 +23,8 @@ Our sensing system uses integration of interruption counter, Passive Infrared (P
  - Camera is used for detecting human entering a room. A face recognition algorithm is able to detect and recognise human registered in the system.
  
 Future Enhancements:
- ======
- - System can be scaled up to control room�s tube-light, fan, AC and other appliance. Necessary modification may require permission from department.   
+======
+ - System can be scaled up to control tube-light, fan, AC and other appliance of rooms. Necessary modification may require permission from department.   
  - Enhancement in face recognition algorithm with moving people.
  - Whenever a person enters a room, he/she can be recognised and by using machine learning algorithm specific user profile can be upload for example set on their PC, lights near their area.  
 
