@@ -4,7 +4,8 @@ Project Name : Smart Street Light System
  - This project was a outcome of Hackathon held at IIT Bombay on 22-23 March,2014.
 
 
- Team Members:
+Team Members:
+========
 
  - Prashant Rupapara
  
@@ -17,8 +18,8 @@ Project Name : Smart Street Light System
 
  
  
- System Overview :
-
+System Overview :
+========
 
  - Major components of the system are Web Server, Hubs and Nodes. 
  
