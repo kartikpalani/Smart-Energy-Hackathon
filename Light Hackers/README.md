@@ -1,7 +1,7 @@
 Project Name: Smart Street Light System
 =======================
 
--> This project was a result of Hackathon held at IIT Bombay on 22-23 March,2014.
+-> This project was a outcome of Hackathon held at IIT Bombay on 22-23 March,2014.
 
 -> Team Members:
 
