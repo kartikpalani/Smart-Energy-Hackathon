@@ -50,4 +50,4 @@ Its path MUST be included in the python script for proper operation. MonitorOff.
 
 
 Future scope:
-A combination of piezo sensor mat and load sensor can detect "Load Signature" of a person. Machine learning methods make the current algorithm more robust.
+A combination of piezo sensor mat and load sensor can detect "Load Signature" of a person. Machine learning methods will make the current algorithm more robust.
