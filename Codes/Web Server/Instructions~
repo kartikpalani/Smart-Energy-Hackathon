@@ -1,6 +1,0 @@
-print.py reads serial data and dynamically updates the web page.
-
-Steps to follow:
-1.Open the file "myhtml.html" in any browser of your choice.
-2.Run the python script from terminal using command "python print.py".
-
