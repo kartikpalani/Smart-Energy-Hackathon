@@ -38,7 +38,7 @@ System Overview
  - The system is designed to be scalable and flexible as you can adjust number of nodes and hubs as and when required. We developed prototype using leds, but the same hardware and firmware can be used on real street light by just giving led's input to the relay that is controlling real street light.
 
  - The system is designed to be robost. Like what if one or more node fails, what if hub fails and what if server crashes. We took care of all the probels. And lights will remain off unless all of them fail simultaneously!
- - 
+
  - PIR sensors that dim the lights when there's no one around. Use of LDR resistors to operate the street lights based on the sunlight intensity. 
  
  - Current and voltage of each street light is measured with low cost sensors that we built and current reading is also used to find out whether light is actually working or not. In case it is not working then server is notified for the same and in morning maintenance person will be given a list of street light with exact location to replace lights.
