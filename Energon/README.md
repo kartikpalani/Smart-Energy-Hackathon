@@ -39,12 +39,15 @@ Description:
 
 Part 1: circuit diagram of the image is shown in "smartchair-circuitdiagram.jpg".
 
-Part 2: Experimental setup is shown in image file "smartchair-experimental setup.jpg" in the Energon. It depicts the workspace environment where smart-chair can be used.
+Part 2: Experimental set-up is shown in image file "smartchair-experimental setup.jpg" in the Energon. It depicts the workspace environment where smart-chair can be used.
  
-Part 3: It is arduino code for fusion of sensors: load cell (Hx711)and ultrasonic sensor(HC-SR04). 
-Ref: git source-> https://github.com/bogde/HX711
+Part 3: It is arduino code sensor data extraction: load cell (Hx711)and ultrasonic sensor(HC-SR04). 
+Ref used: git source-> https://github.com/bogde/HX711
 
 Part 4: It has python script which receives data on serial port and use it for operations like monitor On/OFF, cursor movement, log off from windows etc...
 Currently monitor ON/OFF functionality is made using application MonitorOff.exe
 Its path MUST be included in the python script for proper operation. MonitorOff.exe is used from open source code available on internet. But system calls in Python using "os.subprogram" also can do the same functionality.
 
+
+Future scope:
+A combination of piezo sensor mat and load sensor can detect "Load Signature" of a person. Machine learning methods make the current algorithm more robust.
