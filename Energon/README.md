@@ -8,14 +8,16 @@ Samrudha Kelkar
 
 Nimish Kothari
 
-Idea: Smart chair utilizes most natural input given by user i.e. weight on chair and distance from back as an input to the system to switch ON/OFF the monitor screen of workstation. It sends serial data to the workstation  over a USB cable. Same cable is used to power up the setup. Security feature is provided, so that when unknown/guest person sits on the chair, system will log off from windows. When known person sits, system can be used again from where user left.   
+Idea: Smart chair utilizes most natural input given by user i.e. weight on chair and distance from back as an input to the system to switch ON/OFF the monitor screen of workstation. It sends serial data to the workstation  over a USB cable. 
+
+      Same cable is used to power up the setup. Security feature is provided, so that when unknown/guest person sits on the chair, system will log off from windows. When known person sits, system can be used again from where user left.   
 
 
 Here is the documentation for the same.
-Part 1: Circuit diagram
-Part 2: Experimental set-up diagram
-Part 3: Arduino code
-Part 4: Python code
+       Part 1: Circuit diagram
+       Part 2: Experimental set-up diagram
+       Part 3: Arduino code
+       Part 4: Python code
 
 Components used:
 Arduino Uno, 
@@ -26,7 +28,7 @@ Laptop,
 Connectors, breadboard, chair, foam,
 
 Description:
-Part 1: circuit diagram of the image is shown in Energon image.
+Part 1: circuit diagram of the image is shown in "smartchair-circuitdiagram.jpg".
 
 Part 2: Experimental setup is shown in image file "smartchair-experimental setup.jpg" in the Energon. It depicts the workspace environment where smart-chair can be used.
  
