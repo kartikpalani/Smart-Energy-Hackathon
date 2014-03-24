@@ -1,4 +1,4 @@
-Project Name : Smart Street Light System
+Smart Street Light System
 =======================
  
  - This project was a outcome of Hackathon held at IIT Bombay on 22-23 March,2014.
@@ -35,7 +35,10 @@ System Overview :
  
  - You can see working prototype's pics in "pics" folder.
 
- 
+
+
+
+
  - PIR sensors that dim the lights when there's no one around. Use of LDR resistors to operate the street lights based on the sunlight intensity. 
  
  - Measure the current and voltage across each of the street light and current reading is also used to find out whether light is actually working or not. In case it is not working then server is notified for the same and in morning maintenance person will be given a list of street light with exact location to replace lights.
