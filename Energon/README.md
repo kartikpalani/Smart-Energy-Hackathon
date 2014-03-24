@@ -1,7 +1,8 @@
 Smart Chairs
 ========================
 
-Team Energon has made a hack "Smart chair" in smart energy hackathon 2014 held at seil,KReSIT,IIT,Bombay
+Team Energon has made a hack called "Smart chair" in smart energy hackathon 2014 held at Seil,KReSIT,IIT,Bombay
+
 Team members:
 
 Samrudha Kelkar
@@ -13,12 +14,19 @@ Same cable is used to power up the setup. Security feature is provided, so that 
 
 
 Here is the documentation for the same.
+
        Part 1: Circuit diagram
+	   
        Part 2: Experimental set-up diagram
+	   
        Part 3: Arduino code
+	   
        Part 4: Python code
 
-Components used:
+	   
+	   
+
+	   Components used:
 Arduino Uno, 
 Hx711 module (24 bit ADC),
 Load cell (10Kg capacity), 
@@ -27,6 +35,7 @@ Laptop,
 Connectors, breadboard, chair, foam,
 
 Description:
+
 Part 1: circuit diagram of the image is shown in "smartchair-circuitdiagram.jpg".
 
 Part 2: Experimental setup is shown in image file "smartchair-experimental setup.jpg" in the Energon. It depicts the workspace environment where smart-chair can be used.
