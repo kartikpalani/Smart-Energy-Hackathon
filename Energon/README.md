@@ -1,4 +1,4 @@
-Smart Chair
+Smart Chairs
 ========================
 
 Team Energon has made a hack "Smart chair" in smart energy hackathon 2014 held at seil,KReSIT,IIT,Bombay
