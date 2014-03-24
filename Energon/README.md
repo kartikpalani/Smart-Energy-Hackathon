@@ -1,4 +1,4 @@
-Smart Chairs
+Smart Chair
 ========================
 
 Team Energon has made a hack called "Smart chair" in smart energy hackathon 2014 held at Seil,KReSIT,IIT,Bombay
@@ -10,7 +10,8 @@ Samrudha Kelkar
 Nimish Kothari
 
 Idea: Smart chair utilizes most natural input given by user i.e. weight on chair and distance from back as an input to the system to switch ON/OFF the monitor screen of workstation. It sends serial data to the workstation  over a USB cable. 
-Same cable is used to power up the setup. Security feature is provided, so that when unknown/guest person sits on the chair, system will log off from windows. When known person sits, system can be used again from where user left.   
+
+Same cable is used to power up the setup. Apart from power consumption saving, security functioanality is also achieved such that when unknown/guest person sits on the chair, system will log off from windows. When known person sits, system can be used again from where user left.   
 
 
 Here is the documentation for the same.
