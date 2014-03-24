@@ -6,9 +6,9 @@ Smart Sensor Fusion for Occupancy Detection and Human Counting
 Team Members:
 =======
  - Piyush Manavar
- -	Sanam Shakya
- -	Saurav Shandilya
- -	Vishwanathan Iyer
+ - Sanam Shakya
+ - Saurav Shandilya
+ - Vishwanathan Iyer
 	
 	
 Idea:
@@ -22,10 +22,10 @@ Our sensing system uses integration of interruption counter, Passive Infrared (P
  - For sensing the  human subject in area PIR motion sensor is used. Where motion sensors are mounted in two different regions in a room covering entire room. Based on region in which person is detected, Fan is switched on respective region.Motion sensor data predict the location of room which is occupied. 
  - Camera is used for detecting human entering a room. A face recognition algorithm is able to detect and recognise human registered in the system.
  
- Future Enhancements:
+Future Enhancements:
  ======
- - System can be scaled up to control room’s tube-light, fan, AC and other appliance. Necessary modification may require permission from department.   
- -	Enhancement in face recognition algorithm with moving people.
+ - System can be scaled up to control roomï¿½s tube-light, fan, AC and other appliance. Necessary modification may require permission from department.   
+ - Enhancement in face recognition algorithm with moving people.
  - Whenever a person enters a room, he/she can be recognised and by using machine learning algorithm specific user profile can be upload for example set on their PC, lights near their area.  
 
 
