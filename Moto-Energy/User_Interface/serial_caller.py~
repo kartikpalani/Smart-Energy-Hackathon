@@ -1,0 +1,7 @@
+import csv,os
+import serial_reader
+#trydemo.myfn()
+import time 
+while True:
+    serial_reader.myfn()
+    time.sleep(5) 
