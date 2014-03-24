@@ -1,17 +1,17 @@
 Project Name: Smart Street Light System
 =======================
-
--> This project was a outcome of Hackathon held at IIT Bombay on 22-23 March,2014.
-
--> Team Members:
-
- -Prashant Rupapara
  
- -Shreyas Shyamsunder
+ - This project was a outcome of Hackathon held at IIT Bombay on 22-23 March,2014.
+
+Team Members:
+
+ - Prashant Rupapara
  
- -Bhaskar Bandyopadhyay 
+ - Shreyas Shyamsunder
  
- -Shailesh Jain 
+ - Bhaskar Bandyopadhyay 
+ 
+ - Shailesh Jain 
 
 System Overview:
 
