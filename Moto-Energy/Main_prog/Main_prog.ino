@@ -1,0 +1,75 @@
+
+int LDR = 0;      //analog pin to which LDR is connected, here we set it to 0 so it means A0 window 1
+int LDR1= 1; // A1 window 2
+int DR= 2; // It takes value for manual overwrite of the AC
+int LDRValue = 0;                    //that’s a variable to store LDR values
+int light_sensitivity = 800; //This is the approx value of light surrounding your LDR
+int override_sensitivity= 400; //checks whether override switch is on or off
+int light_sensitivity2=850; // second ldr threshold
+int LDRValue1=0;
+int override=0;
+int count=0;
+void setup()
+{
+  Serial.begin(9600);        
+  //start the serial monitor with 9600 buad
+  pinMode(13, OUTPUT);  //we mostly use13 because there is already a built in yellow LED in arduino which shows output when 13 pin is enabled
+  pinMode(11, OUTPUT); // represents window 2
+ 
+ pinMode(12, OUTPUT); //output port(Connected to AC)
+ 
+}
+
+void loop()
+{ 
+  count=0;
+  override= analogRead(DR); 
+  LDRValue = analogRead(LDR);          //reads the ldr’s value through LDR which we have set to Analog input 0 “A0″
+  LDRValue1= analogRead(LDR1);
+  
+  //
+  
+  //Serial.println(override);
+    //Serial.println(LDRValue1);
+
+  //prints the LDR values to serial monitor
+  delay(1000);                                                //This is the speed by which LDR sends value to arduino
+
+  if (LDRValue > light_sensitivity) 
+  {
+    digitalWrite(12, HIGH);
+    digitalWrite(13, HIGH);
+    count=1;
+    Serial.println("Window 1 is open, Please close it to switch on the AC\n");  
+}
+else {
+  digitalWrite(13, LOW); 
+}
+   if (LDRValue1 > light_sensitivity2)
+  {
+    digitalWrite(12, HIGH);
+    digitalWrite(11, HIGH);
+    count=1;
+   
+  
+   Serial.println("Window 2 is open, Please close it to switch on the AC\n");
+  }
+  else{
+  digitalWrite(11, LOW);
+  }
+  if (count==0)
+  {
+    digitalWrite(13, LOW);
+    digitalWrite(11, LOW);
+    digitalWrite(12, LOW);
+  
+   Serial.println("Enjoy AC!!!\n"); // none of the above condition is true so turn on the AC (Windows are closed)
+  }
+  if (override< 400
+  )
+  {
+  Serial.println("Overide switch is on"); //If override switch is on Prompt the user.
+  }
+}
+
+
