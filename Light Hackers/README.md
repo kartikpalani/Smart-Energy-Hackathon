@@ -28,9 +28,9 @@ Project Name : Smart Street Light System
  
  - Each hub is a linux based small board(you can use either raspberry pi or beagle bone black or any similar board (even your PC for testing)). Hub also has xbee to communicate with nodes.
  
-  - Hub communicates with web server via TCP/IP and regularly updates status of each of the node. 
+ - Hub communicates with web server via TCP/IP and regularly updates status of each of the node. 
  
-  - for detailed information about hub and node, you can refer to FSMs
+ - for detailed information about hub and node, you can refer to FSMs
  
  - You can see working prototype's pics in "pics" folder.
 
