@@ -1,0 +1,33 @@
+{
+    "categories":["PerCapita Energy","Total Energy Consumption","Peak Power"],
+    "week":3,
+    "date":"20/01/2014",
+    "unit":"kWh",
+    "data":[
+    {
+	"lab":"SEIL",
+	"values":[44727.1698120205, 146785.4375, 7759.1015625],
+	"score":57.7452096997,
+    "cvalues":[14]
+    },
+    {
+    "lab":"GNL",
+    "values":[74717.1698120205, 186785.4375, 10759.1015625],
+    "score":77.7452096997,
+    "cvalues":[20]
+    },
+    {
+    "lab":"ASL",
+    "values":[24737.1698120205, 116785.4375, 5759.1015625],
+    "score":37.7452096997,
+    "cvalues":[-15]
+    },
+    {
+    "lab":"InfoLab",
+    "values":[42728.1698120205, 126785.4375, 6759.1015625],
+    "score":53.7452096997,
+    "cvalues":[-6]
+    }
+    ],
+    "defaulters":["Lab1","Lab2"]
+}

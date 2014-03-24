@@ -1,0 +1,20 @@
+{
+	"winners":[
+		{
+			"lab":"SEIL",
+			"winnings":8
+		},
+		{
+			"lab":"GNL",
+			"winnings":3
+		},
+		{
+			"lab":"ASL",
+			"winnings":1
+		},
+		{
+			"lab":"InfoLab",
+			"winnings":5
+		}
+	]
+}
