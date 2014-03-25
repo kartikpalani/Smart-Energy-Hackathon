@@ -21,6 +21,7 @@ Our sensing system uses integration of interruption counter, Passive Infrared (P
  - Whenever a person enter/exit from a room, count is recorded in the system and triggers camera to capture human face and run face recognition algorithm. 
  - For sensing the  human subject in area PIR motion sensor is used. Where motion sensors are mounted in two different regions in a room covering entire room. Based on region in which person is detected, Fan is switched on respective region.Motion sensor data predict the location of room which is occupied. 
  - Camera is used for detecting human entering a room. A face recognition algorithm is able to detect and recognise human registered in the system.
+ - Data regarding entry/exit count, occupancy/non-occupancy is stored along with time-stamp in database. This can be used for further analysis and visualization. 
  
 Future Enhancements:
 ======
