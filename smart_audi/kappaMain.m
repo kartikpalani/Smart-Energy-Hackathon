@@ -1,0 +1,11 @@
+clear all
+clearvars all
+clearvars global
+global mask;
+global labels;
+global n;
+global referenceImage;
+global runtimeImage;
+global capacity;
+% kappaDefine
+% kappaRuntime
